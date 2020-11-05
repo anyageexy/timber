@@ -1,0 +1,320 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+// font-family: 'Lato', sans-serif;
+// font-family: 'Roboto', sans-serif;
+.header{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 120px;
+    padding-left: 85px;
+    @media(max-width: 1100px){
+        padding-top: 50px;
+        padding-left: 25px;
+    }
+    @media(max-width: 650px){
+        padding-top: 50px;
+        padding-left: 55px;
+    }
+    @media(max-width: 350px){
+        padding-top: 50px;
+        padding-left: 10px;
+    }
+    }
+
+.header__inner{
+width: 530px;
+height: 530px;
+border: 10px solid #f4d4a5;
+background-color: #fff;
+text-align: center;
+border-radius: 50%;
+padding-top:13px;
+padding-bottom: 160px;
+margin-left: 55px;
+@media(max-width: 1100px){
+    width: 330px;
+    height: 330px;
+    text-align: center;
+    margin-left: 15px;
+}
+@media(max-width: 650px){
+    width: 270px;
+    height: 270px;
+    margin-left: 0;
+}
+@media(max-width: 350px){
+    width: 170px;
+    height: 170px;
+    margin:0 auto;
+    padding-top:0px;
+}
+}
+.header__name{
+    padding-top:20px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color:#bf4200;
+    font-size: 35px;
+    margin-bottom: 12px;
+    @media(max-width: 1100px){
+        font-size: 20px;
+        //margin-bottom: 8px;
+    }
+    @media(max-width: 650px){
+        font-size: 15px;
+        padding-top:10px;
+    }
+    @media(max-width: 350px){
+        margin-bottom: 5px;
+    }
+}
+.phone{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 40px;
+    font-size: 35px;
+    text-decoration: none;
+    color:#000;
+    display: inline-block;//чтобы работали всякие отступы
+    @media(max-width: 1100px){
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    @media(max-width: 650px){
+        margin-bottom: 10px;
+    }
+    @media(max-width: 350px){
+        font-size: 15px;
+    }
+}
+.header__title{
+    color:#1fad26;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0 5px;
+    @media(max-width: 1100px){
+        font-size: 30px;
+    }
+    @media(max-width: 650px){
+        font-size: 20px;
+    }
+    @media(max-width: 350px){
+        font-size: 12px;
+    }
+}
+.header__sale{
+    padding-top: 40px;
+    @media(max-width: 1100px){
+        padding-top: 20px;
+        img{
+            width: 150px;
+            height: 150px;
+        }
+    }
+    @media(max-width: 650px){
+        padding-top:10px;
+        img{
+            width: 130px;
+            height: 130px;
+        }
+    }
+    @media(max-width: 350px){
+        img{
+            width: 70px;
+            height: 70px;
+        }
+    }
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+.container{
+    max-width: 1030px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+   
+    @media(max-width: 1100px){
+        max-width: 830px;
+    }
+    @media(max-width: 650px){
+        padding-left: 5px;
+    padding-right: 5px;
+    }
+    @media(max-width: 510px){
+        padding: 0px;
+    }
+}
+.main{
+    text-align: center;
+}
+.main__title{
+    font-size: 41px;
+    color:#d07a2d;
+    padding-top:70px;
+    padding-bottom:70px;
+    @media(max-width: 1100px){
+        font-size: 30px;
+    }
+}
+.main__text{
+    font-size: 30px;
+    @media(max-width: 1100px){
+        font-size: 18px;
+    }
+}
+.main-img{
+    padding: 90px 0;
+}
+.project__title{
+    color:#d0662d;
+    font-size:41px;
+    font-weight: 700;
+    margin-bottom:106px;
+    @media(max-width: 1100px){
+        font-size: 30px;
+    }
+    @media(max-width:350px){
+        font-size: 20px;
+    }
+}
+.project__item{
+    margin-bottom:120px;
+    font-size: 25px;
+    @media(max-width: 1100px){
+        font-size: 18px;
+    }
+}
+.project__item__title{
+    font-size: 32px;
+    font-weight: 700;
+    @media(max-width: 1100px){
+        font-size: 20px;
+    }
+}
+.project__item__price{
+    color:#17753b;
+}
+.project__item__images{
+    margin-top:26px;
+    @media(max-width: 1100px){
+        .project__images-item{
+            img{
+                object-fit: contain;
+                max-width: 100%;
+            }
+        }
+    }
+}
+.gallery{
+    padding-top:123px;
+    @media(max-width: 650px){
+        padding-top:50px;   
+    }
+}
+.gallery__title{
+    font-size: 41px;
+    color:#d07a2d;
+    font-weight: 700;
+    margin-bottom:40px;
+    @media(max-width: 1100px){
+        font-size: 25px;
+    }
+    @media(max-width: 650px){
+        font-size: 20px;
+
+    }
+}
+.gallery__text{
+    font-size: 25px;
+    margin-bottom:50px;
+    @media(max-width: 1100px){
+        font-size: 18px;
+    }
+}
+.gallery__inner{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    img{
+        display: block;
+    }
+    @media(max-width: 530px){
+        img{
+            max-width: 250px;
+        }
+    }
+    @media(max-width: 510px){
+        img{
+            max-width: 150px;
+        }
+    }
+    
+}
+.mfp-img{
+   min-height:700px;
+   @media(max-width: 650px){
+      max-height:450px;
+      min-height: 400px;
+   }
+}
+.download{
+    display: flex;
+    flex-direction: column;
+    background-color: #f1dfbc;
+    padding:36px 0;
+    img{
+        object-fit: contain;
+    }
+    a{
+        width: 600px;
+        margin:0 auto;
+        padding: 26px 50px;
+        border:5px solid #effd15;
+        background-color: #17753b;
+        color:#fff;
+        font-size: 30px;
+        font-weight: 700;
+        @media(max-width: 650px){
+            width: 300px;
+            padding: 15px 20px;
+            font-size: 15px;
+        }
+        @media(max-width: 350px){
+            width: 250px;
+            padding: 10px 10px;
+            font-size: 12px;
+        }
+    }
+}
+.footer{
+    text-align: center;
+    padding-bottom: 100px;
+    font-family: 'Lato', sans-serif;
+    .phone{
+        font-weight: 700;
+        font-style: 50px;
+    }
+    @media(max-width: 1100px){
+        padding-bottom: 50px;
+    }
+}
+.footer__email{
+    font-size: 30px;
+    color:#2f8bc5;
+    text-decoration: underline;
+    @media(max-width: 1100px){
+        font-size: 20px;
+    }
+}
